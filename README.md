@@ -1,12 +1,28 @@
-# React + Vite
+# GitHub Profile Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, responsive web application built with **HTML5**, **CSS3**, **JavaScript**, and **React** (powered by Vite) that lets you look up any GitHub user’s public profile. Fetches real‑time data from the GitHub REST API and displays avatar, bio, key stats, and top repositories—perfect for demoing front‑end skills and API integration.
 
-Currently, two official plugins are available:
+<p align="center">
+  <img src="./screenshots/demo.png" alt="App Demo" width="600"/>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ⚙️ Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> **Important:** This repository does **not** include `node_modules`, Vite cache, or build artifacts. You must install all essential dependencies locally.
+
+- **Node.js** (v16+) & **npm** or **Yarn**  
+- A **GitHub Personal Access Token** (to increase API rate limits & avoid unauthenticated restrictions)  
+  1. Go to [GitHub Settings → Developer settings → Personal access tokens → Tokens (classic)](https://github.com/settings/tokens)  
+  2. Generate a token with `public_repo` scope (no write access required)  
+  3. Copy the token for use in your local environment  
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/vatsalsharma1234/Github-profile-finder.git
+   cd Github-profile-finder
