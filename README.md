@@ -2,10 +2,6 @@
 
 A sleek, responsive web application built with **HTML5**, **CSS3**, **JavaScript**, and **React** (powered by Vite) that lets you look up any GitHub user’s public profile. Fetches real‑time data from the GitHub REST API and displays avatar, bio, key stats, and top repositories—perfect for demoing front‑end skills and API integration.
 
-<p align="center">
-  <img src="./screenshots/demo.png" alt="App Demo" width="600"/>
-</p>
-
 ---
 
 ## ⚙️ Prerequisites
