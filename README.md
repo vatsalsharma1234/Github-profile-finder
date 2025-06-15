@@ -1,60 +1,12 @@
-# GitHub Profile Finder
+# React + Vite
 
-A sleek, responsive web application built with **HTML5**, **CSS3**, **JavaScript**, and **React** that lets you search any GitHub username and instantly view public profile details and statistics.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-[View Live Demo]() • [GitHub Repo](https://github.com/vatsalsharma1234/Github-profile-finder)
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Table of Contents
+## Expanding the ESLint configuration
 
-- [Features](#features)  
-- [Tech Stack](#tech-stack)  
-- [Demo](#demo)  
- 
-
----
-
-## Features
-
-- **Live Search & Debouncing**  
-  Optimizes API calls by waiting for typing to pause before fetching.
-
-- **Profile Overview**  
-  Displays avatar, name, bio, location, company, blog URL.
-
-- **Key Metrics**  
-  Shows counts of public repos, followers, and following.
-
-- **Top Repositories**  
-  Lists the five most‑starred repositories with name, description, star count, and link.
-
-- **Error Feedback**  
-  User‑friendly alerts for “user not found,” network errors, or API rate limits.
-
-- **Loading Indicators**  
-  Visual spinner while data is being fetched.
-
-- **Modular React Components**  
-  Clean separation into `SearchForm`, `ProfileCard`, `RepoList`, etc.
-
-- **Theming with CSS Variables**  
-  Easy color and spacing customization.
-
-- **Mobile‑First Responsive Design**  
-  Fluid grid and flex layouts adapt from phone to desktop.
-
----
-
-## Tech Stack
-
-- **React** (v18+)  
-- **JavaScript (ES6+)**  
-- **HTML5 & CSS3** (Grid, Flexbox, CSS Variables)  
-- **GitHub REST API**  
-
----
-
-## Demo
-
-> Replace with your deployed link when availabl
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
