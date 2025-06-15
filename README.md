@@ -11,18 +11,7 @@ A sleek, responsive web application built with **HTML5**, **CSS3**, **JavaScript
 - [Features](#features)  
 - [Tech Stack](#tech-stack)  
 - [Demo](#demo)  
-- [Screenshots](#screenshots)  
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [Project Structure](#project-structure)  
-- [Component Overview](#component-overview)  
-- [API Integration](#api-integration)  
-- [State Management](#state-management)  
-- [Error Handling](#error-handling)  
-- [Responsive Design](#responsive-design)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [Acknowledgements](#acknowledgements)  
+ 
 
 ---
 
